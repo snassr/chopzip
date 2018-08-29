@@ -3,7 +3,9 @@
 
 ## Instructions
 ```bash
-# delete old files
+# create unzipped directory (if any)
+mkdir -p /go/src/github.com/snassr/choppd/unzipped
+# delete old files (if any)
 rm /go/src/github.com/snassr/choppd/unzipped/*
 # cd to choppd directory
 cd /go/src/github.com/snassr/choppd
@@ -32,7 +34,7 @@ cd /go/src/github.com/snassr/choppd && bin/chopzip -in ./hello.txt -out ./unzipp
 cd /go/src/github.com/snassr/choppd && go build -o bin/chopzip main.go
 ```
 
-### basket
+## Package Basket (can only use these go packages!)
 ```txt
 ---------------Basket 2---------------
 text
