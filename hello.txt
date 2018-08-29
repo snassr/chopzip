@@ -1,0 +1,3 @@
+Hello Gopher World!
+Just checking if this file was zipped.
+Hope it is zipped!
